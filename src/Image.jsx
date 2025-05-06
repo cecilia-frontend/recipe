@@ -1,0 +1,1 @@
+import './assets/images/src/assets/images/image-omelette.jpeg'
