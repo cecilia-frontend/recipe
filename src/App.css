@@ -1,0 +1,37 @@
+main {
+    background-color: var(--White);
+    padding: 50px;
+    border-radius: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+ul, ol {
+    display: grid;
+    gap: 20px;
+}
+
+
+.pic {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+main h1 {
+    color: var(--Stone-900);
+    padding-block: 20px;
+}
+
+main > p{
+    padding-bottom: 20px;
+}
+
+.prep {
+    background-color: var(--Rose-50);
+    padding: 20px;
+}
+
+.prep h3 {
+    color:var(--Rose-800) ;
+}
+

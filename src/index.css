@@ -16,6 +16,42 @@
 }
 
 body {
-  min-height: 100vh;
-  background-color: var(--Rose-50);
+  max-width: 1440px;
+  margin: auto;
+  background-color: var(--Stone-100);
+  font-family: 'Outfit' , sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  display: grid;
+  place-content: center;
+  padding: 200px; 
 }
+
+h1, h2 {
+  font-family: 'Young Serif , sans-serif';
+  }
+
+img {
+width: 100%;
+height: auto;
+object-fit: cover;
+}
+
+
+li {
+  margin-left: 30px;
+  padding-left: 15px;
+}
+
+li::marker {
+  font-weight: 600;
+  color: var(--Brown-800);
+}
+
+.bold {
+  font-weight: 700;
+
+}
+
+
+
