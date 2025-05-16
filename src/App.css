@@ -2,7 +2,7 @@ main {
     background-color: var(--White);
     padding: 50px;
     border-radius: 20px;
-    width: 70%;
+    width: 55%;
     margin: auto;
 }
 
@@ -34,4 +34,39 @@ main > p{
 .prep h3 {
     color:var(--Rose-800) ;
 }
+
+.bold {
+    font-weight: 700;
+}
+
+.wrapper {
+padding-block: 30px;
+border-bottom: 1px solid var(--Stone-150);
+display: grid;
+gap: 20px;
+}
+
+.nutrition {
+    padding-block: 30px;
+    display: grid;
+    gap: 20px;
+}
+
+.nutrition ul {
+    list-style: none;
+}
+
+.nutrition ul li {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid var(--Stone-150);
+    margin: 0;
+    padding: 10px 40px;
+}
+
+.value {
+    font-weight: 700;
+    color: var(--Brown-800);
+}
+
 
